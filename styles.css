@@ -1,0 +1,361 @@
+html, body, .parent{
+height: 100%;
+min-width: 100%;
+
+}
+
+body{
+	margin: 0px; 
+}
+
+html{
+  /*height: 100%;*/
+  max-width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+label{
+	color: #7f00ff;
+	font-family: 'Delius', cursive;
+	font-weight: bold;
+	font-size: 20px; 
+}
+
+button{
+	background-color: #b2ff66; 
+	border: none;
+	border-color: #b2ff66; 
+	border-radius: 15px;
+	outline: none; 
+	font-size: 20px; 
+	padding: 15px 25px;
+	cursor: pointer;
+	box-shadow: 0 9px #999;
+	color: white;
+	font-family: 'Delius', cursive;
+
+}
+
+button:hover{
+	background-color: #b2ff66;
+	color: #004C99;
+  	opacity: 1;
+  	right: 0;
+  	box-shadow: 10px 10px 5px grey;
+} 
+
+
+
+input{
+	font-size: 20px; 
+	padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+} 
+
+
+
+
+
+#form{
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+	z-index: 1;	
+
+}
+
+#maxtemp{
+	position: relative;
+	left: 847px;
+	bottom: 98px;
+	font-family: 'Merienda One', cursive;
+	font: bold; 
+	color: #00994C;
+	font-size: 25px;
+	z-index: 1;  
+
+}
+
+#mintemp{
+	position: relative;
+	left: 939px;
+	bottom: 16px;
+	font-family: 'Merienda One', cursive;
+	color: #00994C;
+	font-size: 25px;
+	z-index: 1; 
+
+}
+
+
+
+.main{
+	background: url('http://68.media.tumblr.com/c0d7c7e8204d768f70b304a08909f79f/tumblr_ntly20qZ6a1smn4pqo4_1280.png') no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+
+}
+
+#title{
+
+  color: #00994C;
+  font-family: 'Merienda One', cursive;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-top: 200px;
+  left: 274px;
+  bottom: 385px; 
+  font-size: 32px;
+  z-index: auto;
+  position: absolute;
+  z-index: 1;
+ 
+}
+
+#name{
+  color: #00994C;
+  font-family: 'Merienda One', cursive;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-top: 200px;
+  left: 457px;
+  bottom: 446px; 
+  font-size: 30px;
+  z-index: auto;
+  position: absolute;
+  z-index: 1;
+}
+
+#desc{	
+  color: #00994C;
+  font-family: 'Merienda One', cursive;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-top: 200px;
+  left: 470px;
+  bottom: 387px; 
+  font-size: 32px;
+  z-index: auto;
+  position: absolute;
+  z-index: 1;
+}
+
+
+
+.circle{
+	width: 250px;
+	height: 200px; 
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;	
+	border-radius: 251px;	
+}
+
+#c1{
+	position: relative;
+	bottom: 346px;
+	left: 994px;
+	font-family: 'Merienda One', cursive;
+	background: rgba(255, 102, 178, 0.3); 
+}
+
+
+#sun1{
+	position: relative;
+	left: 1021px;
+	bottom: -268px;
+	margin-right: 81px;
+	z-index: 1;
+	color: #00994C;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: 'Merienda One', cursive;
+}
+
+
+
+
+
+#temp-info{
+	color: blue;
+}
+
+.forecast{
+	display: flex;
+	flex-direction:row;
+/*	align-items: flex-end;
+*/	align-content: space-around;
+	height: 100px;
+	position: relative;
+	top: 500px;
+	color: blue;
+
+}
+
+
+
+.item-{
+	align-self: flex-end;
+	position: relative;
+	bottom:-21px;
+	background: rgba(153, 255, 255, 0.3); 
+	color: #00994C;
+	font-weight: bold;
+	font-family: 'Merienda One', cursive;
+	padding: 15px;
+	margin-left: 20px;
+	margin-right: 13px;
+	height: 200px;
+	width: 100px;
+	border: 2px solid transparent;
+	border-style: none; 
+	box-shadow: 6px 8px 10px 0px rgba(237,237,237,1) , -9px -2px 20px 0px rgba(255,255,255,1) , 12px -3px 20px #66FFBF , 0px 0px 2px #66FF66 , 0 4px 0px #66FF66 , 11px 3px 0px 0px #66FF66 , 0px 0px 14px #66FF66;
+	-webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+	-moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+	-o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+	transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+	
+}
+
+
+
+
+
+
+.weather-canvas{
+	color: blue;
+	z-index: 1; 
+	
+}
+
+
+.triangle2{
+	width: 0;
+	height: 0;
+	border-left: 200px solid transparent;
+	border-right: 200px solid transparent;
+	border-top: 200px solid #FF9999; 
+	position: relative;
+	overflow: hidden;
+	box-shadow: 0px 16px 10px -17px rgba(237,237,237,1); 
+/*	-webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+	-moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+	-o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1*/);
+	transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+	/*, 0 0 20px rgba(255,255,255,1) , 0 0 30px #FF9999 , 0 0 2px #FF9999 , 0 0 70px #FF9999 , 0 0 80px #FF9999 , 0 0 100px #FF9999 ;*/
+}
+
+.triangle2:after{
+	background: #FF9999;
+  	transform: rotate(45deg); /* Prefixes... */
+  	top: 75px;
+  	left: 25px;
+  	box-shadow: -1px -1px 10px -2px rgba(0, 0, 0, 0.5);
+}
+
+
+#t2{
+	position: relative;
+	color: rgba(204, 255, 204, 0.3);
+	top: -600px;
+	left: 800px;
+}
+
+/*.diamond:after{
+	content: '';
+	position: absolute;
+	left: -200px;
+	top: 199px;
+	width: 0;
+	height: 0;
+	border: 199px solid transparent;
+	border-top-color: white; 
+}
+
+.diamond-shield{
+	width: 0;
+	height: 0;
+	border: 50px solid transparent;
+	border-bottom: 20px solid white; 
+	border-bottom-color: white;
+	position: relative;
+	top: -50px;
+	color: white;
+
+}
+
+.diamond-shield:after{
+	content: '';
+	position: absolute;
+	left: -50px;
+	top: 20px;
+	width: 0;
+	height: 0;
+	border: 50px solid transparent;
+	border-top-color: white; 
+	border-top: 70px solid white;
+
+}*/
+
+
+
+
+}
+
+
+/*#d1{
+
+	position: relative;
+	left: 900px;
+	top: -700px;
+}
+
+#d2{
+
+	position: absolute;
+	left: 832px;
+	top: -90px;
+}
+
+#d3{
+
+	position: absolute;
+	left: 500px;
+	top: 321px;
+}
+
+#ds1{
+
+	position: absolute;
+	left: 100px;
+	top: 100px;
+}
+
+#ds2{
+
+	position: absolute;
+	left: 120px;
+	top: 120px;
+}
+
+#ds3{
+
+	position: absolute;
+	left: 140px;
+	top: 140px;
+}*/
+
+
+
+
+
+
